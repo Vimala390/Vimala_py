@@ -1,0 +1,16 @@
+print(abs(-2.546))
+print(abs(3+5j))
+print(all([]))
+print(any([1,2]))
+print(any([]))
+print(ascii(''))
+print(bool(None))
+print(divmod(10,2))
+x = ['apple','mango','papaya','grape']
+y = (1,12,23,2,3,5,6,89)
+print(dict(enumerate(x))); print(tuple(enumerate(x)))
+print(format(0.5,'%'))
+print(sorted(x,reverse=True))
+print(sorted(y,reverse= True))
+z=lambda a,b,c:a+b+c
+print(z(1,2,3))
